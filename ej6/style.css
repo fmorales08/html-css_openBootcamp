@@ -1,0 +1,14 @@
+button {
+	display: block;
+}
+button::before {
+	content: "Pasa por encima";
+}
+button:hover {
+	background-color: green;
+	color: aliceblue;
+}
+button:after {
+	content: "Hecho¡";
+	visibility: visible;
+}
